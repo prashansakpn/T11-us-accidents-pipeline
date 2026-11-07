@@ -43,7 +43,7 @@ Kaggle zip (685 MB) → Unity Catalog Volume → BRONZE (raw Delta) → SILVER (
 | Silver rows | 7,728,394 (rows in = duplicates + rejects + silver) |
 | Null % precipitation / wind speed / visibility / humidity / weather / temperature | 28.51 / 7.39 / 2.29 / 2.25 / 2.24 / 2.12 |
 
-## How to run (Databricks Free Edition)
+## How to run
 1. Download the dataset zip from Kaggle.
 2. In a notebook, run:
    ```sql
@@ -58,4 +58,6 @@ Kaggle zip (685 MB) → Unity Catalog Volume → BRONZE (raw Delta) → SILVER (
 ## Repository contents
 - `notebooks/T11_CP3_Notebook.ipynb`: bronze, silver and quality checks (Checkpoint 3)
 - `docs/`: checkpoint submissions (project plan, Agile write-up)
+
+
 
